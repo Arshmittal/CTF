@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html  lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>CTF: Home</title>
+			<meta name="description" content="">
+			
+			<meta name="author" content="CTF Academy">			
+			<link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
+				<!--[if lt IE 9]>
+				<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+				<![endif]-->
+				<link rel="stylesheet" href="src/font-awesome-4.7.0/css/font-awesome.min.css" />				
+				<script src="src/jquery-3.4.1.min.js"></script>
+				<script src="src/popper.min.js"></script>				
+				<script src="src/bootstrap/js/bootstrap.min.js"></script>		
+				<link href="style.css" rel="stylesheet" />
+				<script src="src/jquery.md5.min.js"></script>
+				<script src="src/hashCheck.js"></script>
+				<script src="src/flagValidate.js"></script>
+				
+
+		
+		</head>				
+				
+				<body>
+				
+				
+				
+				<!-- Header -->
+				<header id="top">					
+					<div class="container-fluid ctfaLogo">
+				<div class="row">				
+					<div class="col-md-12">
+						<div class="myLogo ">						
+						
+						</div>						
+						<div class="floatText">						
+						<h2 class="display-4">						
+						<span class = "mainblue">						
+						<a href="index.htm">						
+						
+											
+						<br class="break">						
+				
+						CTF
+			
+						</a>
+						</span>						
+						</h2>
+						</div>						
+						</div>
+						</div>						
+					  </div>			
+				</header>
+				
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark"  id="myNav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+		<ul class="nav navbar-nav">
+		
+			
+			<li class="nav-item">
+				<a class="nav-link" href="crypto/index.htm">Cryptography</a>
+			</li>
+			
+			
+			
+			<li class="nav-item">
+				<a class="nav-link" href="osint/index.htm">Open-Source Intel</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="web/index.htm">Web App Exploitation</a>
+			</li>
+							
+		</ul>
+    </div>
+  </div>
+</nav>
+
+							
+<!-- Main container -->
+<div class="container-fluid text-align:flex-center" >
+
+<div id="myBody">
+  <div class="row">						
+
+<!-- Column Navigation -->
+<div class="col-md-3 order-2 order-md-1" >
+
+
+
+</div>
+
+<!-- End column -->						
+
+
+<!-- Main content -->
+		<div class="col-md-9 order-1 order-md-2" >
+				<div id="main">
+				
+				<ol class="breadcrumb">
+				  <li class="breadcrumb-item active">Home</li>
+				  
+				</ol>				
+
+
+<noscript>
+				Please enable JavaScript on your web browser. For a tutorial, <a href="other/enable_javascript.htm">click here</a>.				
+				</noscript>
+
+
+
+
+<!--
+<div class="myVideo my-3">
+<div class="embed-responsive embed-responsive-16by9">
+    <video  class="embed-responsive-item" controls>
+        <source src="videos/Introduction_to_CTF_Academy.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+    </video>
+</div>
+</div>
+-->
+
+
+
+	
+	
+
+
+
+<p>
+To demonstrate how answers and flags are submitted, below is an example flag input bow. Try it out by entering the following flag: ctfa{example_flag}
+</p>
+
+<!-- Flag input form -->
+<div class = "mySignInBox myLightBox my-4">
+<form class="text-center" novalidate>
+<div class = "mySignIn p-2">
+    <p class="h4">Input Flag</p>	
+</div>	
+<div class = "mySignInFields p-4">	
+	<div class="mb-3">    
+    <input type="text" id="flag" class="form-control">	
+	<span id="flagFeedback"></span>
+	</div>
+	
+    <!-- Submit button -->
+    <button onclick="myFlag()" class="btn btn-mybutton btn-block mb-2" id = "submit" type="button">Submit</button>
+
+    </div>
+</form>
+</div>
+<!-- Flag form End -->
+
+<p>
+If you enter the flag correctly, you should see a completion message, like in the example form below. This is how you will know if you submitted the correct answer as you complete the challenges. 
+</p>
+
+
+<!-- Q1 input form -->
+<div class = "mySignInBox myLightBox my-4 exampleForm">
+<form class="text-center" novalidate>
+<div class = "mySignIn p-2">
+    <p class="h4">Input Flag</p>	
+</div>	
+<div class = "mySignInFields p-4">	
+	<div class="mb-3">    
+    <input type="text" class="form-control" value="ctfa{example_flag}">	
+	<span>Good job!</span>
+	</div>
+	
+    <!-- Submit button -->
+    <button class="btn btn-mybutton btn-block mb-2" type="button">Submit</button>
+
+    </div>
+</form>
+</div>
+<!-- Flag form End -->
+
+
+
+<!--
+<div class="myVideo my-3">
+<div class="embed-responsive embed-responsive-16by9">
+    <video  class="embed-responsive-item" controls>
+        <source src="videos/Why_Choose_Cyber.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+    </video>
+</div>
+</div>
+-->
+
+
+
+
+
+			
+
+</div>
+<!-- Main End --> </div>
+</div>
+</div>
+</div>
+<!-- Main Container End --> 
+				
+<!-- Footer -->
+
+  <!-- Footer End -->
+</body>
+</html>
